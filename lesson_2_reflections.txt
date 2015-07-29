@@ -7,3 +7,8 @@ How is the staging area different from the working directory and the repository?
 Staging area contains snapshots that are about to commit to the repository. Working directory is just an OS directory, it contains everything inside it. 
 The repository contains commits. The staging area allows us to make a commit with changes in multiple files.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can use `git diff --staged` to review the changes between staging area and the lastest commit to ensure one commit per logical change
+
+
