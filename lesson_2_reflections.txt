@@ -14,3 +14,11 @@ I can use `git diff --staged` to review the changes between staging area and the
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches are helpful when I need to work on a thing but not finished yet, but then I need to work on an emergency thing. I need to save my half-done work somewhere. Branches are excellent for that situation.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagram shows me what a branch is actually a tipping point, a commit. And it explains why a checkout will cause a detached HEAD.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging to branches will create a new commit that has two parents to the latest commits on the current branch and the other branch. 
