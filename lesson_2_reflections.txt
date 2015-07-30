@@ -22,3 +22,8 @@ The diagram shows me what a branch is actually a tipping point, a commit. And it
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging to branches will create a new commit that has two parents to the latest commits on the current branch and the other branch. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: help avoid trivial merge manually which is very often
+Cons: avoid merging incorrectly, because program is complex by nature
