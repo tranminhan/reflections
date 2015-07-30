@@ -11,4 +11,6 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 I can use `git diff --staged` to review the changes between staging area and the lastest commit to ensure one commit per logical change
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
+Branches are helpful when I need to work on a thing but not finished yet, but then I need to work on an emergency thing. I need to save my half-done work somewhere. Branches are excellent for that situation.
